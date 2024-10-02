@@ -1,7 +1,7 @@
 import React from 'react'
 import backgroundHeading from './assets/backgroundHeading.png'
 import backgroundspeakers from './assets/backgroundspeakers.png'
-import speakerBorder from './assets/imresizer-1727819465063.png'
+import speakerBorder from './assets/speakerBorderDesign.png'
 import Speaker from './assets/speaker.png';
 
 const speakersData=[
@@ -30,8 +30,8 @@ const speakersData=[
 
 function Speakers() {
   return (
-    <section className='w-full 2xl:h-[2300px] xl:h-[2300px] lg:h-[2100px] md:h-[1500px] sm:h-[1500px] h-[1000px] flex items-center flex-col' style={{background: 'rgba(24, 24, 24, 1)'}}>
-      <div className='w-[40%] h-[250px] mt-[100px] flex justify-center items-center' style={{backgroundImage:`url(${backgroundHeading})`, backgroundSize:'contain', backgroundRepeat:'no-repeat', backgroundPosition:"center"}}>
+    <section className='w-full 2xl:h-[2400px] xl:h-[2400px] lg:h-[2100px] md:h-[1600px] sm:h-[1500px] h-[1000px] flex items-center flex-col' style={{background: 'rgba(24, 24, 24, 1)'}}>
+      <div className='md:w-[50%] md:h-[300px] sm:w-[40%] sm:h-[250px] sm:mt-[100px] w-[60%] h-[250px] mt-[100px] flex justify-center items-center' style={{backgroundImage:`url(${backgroundHeading})`, backgroundSize:'contain', backgroundRepeat:'no-repeat', backgroundPosition:"center"}}>
         <h1 className='text-white 2xl:text-8xl xl:text-8xl md:text-6xl sm:text-6xl text-6xl' style={{ fontFamily: 'FoglihtenNo07'}}>Speakers</h1>
       </div>
       <div className='w-full h-[0.5px] bg-gray-300 md:mt-[-50px] sm:mt-[-70px] mt-[-70px]'></div>
