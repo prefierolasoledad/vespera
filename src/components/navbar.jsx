@@ -13,7 +13,7 @@ function Navbar() {
       }
 
   return (
-    <nav className=" p-4 fixed w-full" style={{ background: 'rgba(24, 24, 24, 1)'}}>
+    <nav className=" p-4 fixed w-full z-[1000]" style={{ background: 'rgba(24, 24, 24, 1)'}}>
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-white text-2xl font-bold ml-10">
