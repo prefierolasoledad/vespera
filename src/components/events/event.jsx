@@ -5,7 +5,21 @@ import box from './image/box.png';
 import calander from './image/calander.png';
 import people from './image/people.png';
 
+
+//for navigation
+import { useNavigate } from 'react-router-dom';
+
+
 function Event() {
+
+    const navigate = useNavigate();
+
+    const navigateToHackathonPage=(event)=>{
+        event.preventDefault();
+        navigate({
+            pathname: "/hackathon",
+        });
+      }
   return (
     <div className='pb-[100px]' style={{ background: 'rgba(24, 24, 24, 1)'}}>
         <div className="container flex items-center pt-2">
@@ -29,7 +43,7 @@ function Event() {
       
       <div className="container mx-auto mt-40 max-w-5xl bg-neutral-950 p-10 rounded-lg shadow-lg">
 
-        <div className="flex">
+        <div onClick={navigateToHackathonPage} className="flex">
     
             <div className="w-1/3">
             <img src={box} alt="Left Section Image" className="object-cover w-full h-full rounded-lg" />

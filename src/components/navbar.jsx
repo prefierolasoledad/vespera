@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <nav className=" p-4 fixed w-full z-[1000]" style={{ background: 'rgba(24, 24, 24, 1)'}}>
       <div className="container mx-auto flex justify-between items-center">
-        {/* Logo */}
+        
         <div className="text-white text-2xl font-bold ml-10">
         <svg width="50" height="50" viewBox="0 0 412 298" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M213.785 80.0105C201.261 70.9439 189.563 58.6175 178.14 41.8624C176.317 39.7336 173.108 39.4865 170.981 41.3112C170.012 42.138 169.386 43.3165 169.243 44.59C169.139 64.8805 166.338 81.6452 161.002 96.1669C86.399 116.248 26.2478 120.592 21.5098 105.091C16.2305 87.7941 81.9933 52.3356 168.398 25.8961C254.803 -0.543378 329.131 -7.95631 334.419 9.34054C339.148 24.8412 286.859 54.9016 213.785 80.0105Z" fill="#6356FE"/>
@@ -36,7 +36,7 @@ function Navbar() {
 
         </div>
         
-        {/* Navigation Links */}
+        
         <ul className="flex space-x-12 text-gray-300 text-lg mr-10">
             <li className="relative group">
                 <a href="/" className="inline-block transition-transform duration-1 group-hover:translate-y-[-10px] group-hover:opacity-0">
