@@ -23,6 +23,8 @@ code {
   font-style: normal;
 }
 
+/* speaker section */
+
 @font-face {
   font-family: 'FoglihtenNo07';
   src: url('./components/speakers/fonts/FoglihtenNo07.otf') format('truetype');

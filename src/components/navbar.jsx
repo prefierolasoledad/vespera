@@ -12,6 +12,13 @@ function Navbar() {
         });
       }
 
+      const navigateToEventsPage=(event)=>{
+        event.preventDefault();
+        navigate({
+            pathname: "/events",
+        });
+      }
+
   return (
     <nav className=" p-4 fixed w-full z-[1000]" style={{ background: 'rgba(24, 24, 24, 1)'}}>
       <div className="container mx-auto flex justify-between items-center">
@@ -40,12 +47,12 @@ function Navbar() {
                 </a>
             </li>
             <li className="relative group"> 
-                <a href="/" className="inline-block transition-transform duration-10 group-hover:translate-y-[-10px] group-hover:opacity-0">
+                <p onClick={navigateToEventsPage} className="inline-block transition-transform duration-10 group-hover:translate-y-[-10px] group-hover:opacity-0">
                     Events
-                </a>
-                <a href="/" className="absolute text-white inline-block transition-transform duration-10 translate-y-[10px] translate-x-[-50px] opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
+                </p>
+                <p onClick={navigateToEventsPage} className="absolute text-white inline-block transition-transform duration-10 translate-y-[10px] translate-x-[-50px] opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
                     Events
-                </a>
+                </p>
             </li>
             <li className="relative group">
                 <p onClick={navigateToSpeakersPage} className="inline-block transition-transform duration-10 group-hover:translate-y-[-10px] group-hover:opacity-0">
