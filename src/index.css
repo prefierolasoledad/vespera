@@ -25,14 +25,14 @@ code {
 
 @font-face {
   font-family: 'FoglihtenNo07';
-  src: url('./fonts/FoglihtenNo07.otf') format('truetype');
+  src: url('./components/speakers/fonts/FoglihtenNo07.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SpaceGrotesk';
-  src: url('./fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+  src: url('./components/speakers/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
